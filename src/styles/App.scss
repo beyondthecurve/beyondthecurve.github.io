@@ -106,7 +106,6 @@ h3 {
 
 // PAGE
 .page-header {
-
   box-shadow: 2px 5px 8px 5px rgba(0,0,0,.3) inset;
   height: 200px;
   color: $white;
@@ -158,8 +157,17 @@ h3 {
 }
 // END PAGE
 
+.summer-beyond-page {
+  .classes {
+    ul {
+      width: 400px;
+    }
+  }
+}
+
 .subject-page,
-.test-page {
+.test-page,
+.summer-beyond-page {
   background-color: $white;
   .contact-us-button {
     color: $darkblue;

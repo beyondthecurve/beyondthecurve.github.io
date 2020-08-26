@@ -22,7 +22,7 @@ function App() {
       <main className='main'>
         <Router>
           <Switch>
-          <Route exact path='/about' render={() => (
+          <Route exact path='/' render={() => (
               <About/>
             )} />
           <Route exact path='/subject-tutoring' render={() => (

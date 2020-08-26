@@ -14,7 +14,7 @@ class Navigation extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="p-2">
               <Nav className="d-flex align-items-end">
-                <Nav.Link href="/about" className="navbar-link">About</Nav.Link>
+                <Nav.Link href="/" className="navbar-link">About</Nav.Link>
                 <NavDropdown title="Programs" className="navbar-link" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/subject-tutoring" className="navbar-link">Subject Tutoring</NavDropdown.Item>
                   <NavDropdown.Item href="/test-prep" className="navbar-link">Test Prep</NavDropdown.Item>
