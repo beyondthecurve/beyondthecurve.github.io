@@ -14,7 +14,7 @@ class Contact extends Component {
             <h1 className="mb-2">Connect with us!</h1>
             <h2 className="mb-5">Success Begins Today.</h2>
             <h3 className="mb-5 pr-2">Please feel free to reach out for more information, or if you have any questions. You can contact us by sending in an interest form, calling, or emailing.</h3>
-            <div className="info d-flex mt-5">
+            <div className="info d-flex flex-column mt-5">
               <div className="phone m-3">
                 <h3>Phone/SMS</h3>
                 <p>781-801-4364 </p>
