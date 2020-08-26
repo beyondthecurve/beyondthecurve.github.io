@@ -52,6 +52,7 @@ h3 {
     justify-content: flex-end;
     .navbar-link,
     .nav-link {
+      text-decoration: none;
       margin: 0 15px;
       color: $white;
       &:hover {
@@ -59,7 +60,7 @@ h3 {
         border: none;
       }
     }
-    .dropdown-item{
+    .dropdown-item > a{
       color: $darkblue;
       margin: 0;
     }

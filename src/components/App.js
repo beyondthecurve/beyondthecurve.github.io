@@ -15,32 +15,32 @@ import Footer from './Footer';
 function App() {
   return (
     <>
-      <div className='d-flex main-header py-2'>
-        <Header/>
-        <Navigation/>
-      </div>
-      <main className='main'>
-        <Router>
-          <Switch>
-          <Route exact path='/' render={() => (
-              <About/>
+      <Router>
+        <div className='d-flex main-header py-2'>
+          <Header/>
+          <Navigation/>
+        </div>
+        <main className='main'>
+            <Switch>
+            <Route exact path='/' render={() => (
+                <About/>
+              )} />
+            <Route exact path='/subject-tutoring' render={() => (
+              <Subject/>
             )} />
-          <Route exact path='/subject-tutoring' render={() => (
-            <Subject/>
-          )} />
-          <Route exact path='/test-prep' render={() => (
-              <Test/>
-            )} />
-          <Route exact path='/summer-beyond' render={() => (
-              <SummerBeyond/>
-            )} />
-          <Route exact path='/contact' render={() => (
-              <Contact/>
-            )} />
-          </Switch>
-        </Router>
-      </main>
-      <Footer/>
+            <Route exact path='/test-prep' render={() => (
+                <Test/>
+              )} />
+            <Route exact path='/summer-beyond' render={() => (
+                <SummerBeyond/>
+              )} />
+            <Route exact path='/contact' render={() => (
+                <Contact/>
+              )} />
+            </Switch>
+        </main>
+        <Footer/>
+      </Router>
     </>
   );
 }

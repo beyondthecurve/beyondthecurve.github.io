@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
+import {Link} from 'react-router-dom'
 
 class Navigation extends Component {
   constructor () {
@@ -13,14 +14,20 @@ class Navigation extends Component {
           <Navbar expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="p-2">
-              <Nav className="d-flex align-items-end">
-                <Nav.Link href="/" className="navbar-link">About</Nav.Link>
+              <Nav className="d-flex align-items-center justify-content-center">
+                <Link to="/" className="navbar-link">About</Link>
                 <NavDropdown title="Programs" className="navbar-link" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="/subject-tutoring" className="navbar-link">Subject Tutoring</NavDropdown.Item>
-                  <NavDropdown.Item href="/test-prep" className="navbar-link">Test Prep</NavDropdown.Item>
-                  <NavDropdown.Item href="/summer-beyond" className="navbar-link">Summer Beyond</NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/subject-tutoring" className="navbar-link">Subject Tutoring</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/test-prep" className="navbar-link">Test Prep</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/summer-beyond" className="navbar-link">Summer Beyond</Link>
+                  </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="/contact" className="navbar-link">Contact Us</Nav.Link>
+                <Link to="/contact" className="navbar-link">Contact Us</Link>
               </Nav>
             </Navbar.Collapse>
         </Navbar>
