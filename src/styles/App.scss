@@ -193,6 +193,7 @@ h3 {
 
 .contact-page {
   .contact-header {
+    text-align:center;
     border-radius: 15px;
     h1 {
       color: $darkblue;
@@ -201,24 +202,13 @@ h3 {
       color: $orange;
     }
   }
-
-  .contact-right-column {
-    .info-header {
-      width: 100%;
-      text-align: center;
-      background-color: $offwhite;
-    }
-    .contact-form {
-      width: 100%;
-    }
-  }
 }
 
 //END CONTACT---------------------------------------
 
 //FOOTER ---------------------------------------------
 .footer {
-  height: 60px;
+  height: 100px;
   background-color: $darkblue;
   color: $white;
   h3 {
@@ -231,3 +221,8 @@ h3 {
 }
 
 //END FOOTER------------------------------------------
+
+// FORM-------------------------------------------------
+.googleform {
+
+}

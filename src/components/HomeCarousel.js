@@ -1,9 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import image1 from '../imgs/carousel-1.JPG'
-import image2 from '../imgs/carousel-2.JPG'
-import image3 from '../imgs/carousel-3.JPG'
-import image4 from '../imgs/carousel-4.JPG'
+import image1 from '../imgs/carousel-1.JPG';
+import image2 from '../imgs/carousel-2.JPG';
+import image3 from '../imgs/carousel-3.JPG';
+import image4 from '../imgs/carousel-4.JPG';
 // <Carousel.Caption>
 //   <h3>First slide label</h3>
 //   <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
